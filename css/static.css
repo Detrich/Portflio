@@ -176,7 +176,6 @@
   display:flex;
   margin:4vh 0 0 0;
   justify-content: space-around;
-  flex-flow:center;
   height:128px;
 }
 .minisocials{
