@@ -61,7 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../imgs/bg.jpg');
+    background-image: url('../imgs/');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -174,10 +174,10 @@
 }
 .socials{
   display:flex;
-  margin:3vh 0 0 0;
-  justify-content: center;
+  margin:4vh 0 0 0;
+  justify-content: space-around;
   flex-flow:center;
-  height:125px;
+  height:128px;
 }
 .minisocials{
   display:flex;
@@ -215,7 +215,16 @@
   div.head2{
     font-size: 50%;
   }
-  div.socials{
-    height:100px;
+  img.github{
+    width:100px;
+    height: 100px;
+  }
+  img.gitlab{
+    width:100px;
+    height: 100px;
+  }
+  img.linkedin{
+    width:100px;
+    height: 100px;
   }
 }
